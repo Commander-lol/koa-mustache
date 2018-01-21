@@ -1,0 +1,22 @@
+{
+  "name": "@commander-lol/koa-mustache",
+  "version": "1.0.0",
+  "description": "Mustache rendering for Koa 2+",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ./**/*.js"
+  },
+  "keywords": [
+    "koa",
+    "mustache",
+    "template",
+    "rendering",
+    "async"
+  ],
+  "author": "Louis Capitanchik <contact@louiscap.co>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@bark/eslint-config": "^0.1.2",
+    "eslint": "^4.16.0"
+  }
+}
