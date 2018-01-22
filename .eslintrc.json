@@ -1,3 +1,6 @@
 {
-	"extends": "@bark"
+	"extends": "@bark",
+	"parserOptions": {
+		"ecmaVersion": 8
+	}
 }

@@ -1,6 +1,6 @@
 {
   "name": "@commander-lol/koa-mustache",
-  "version": "1.0.0",
+  "version": "1.0.1-beta1",
   "description": "Mustache rendering for Koa 2+",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,9 @@
   "devDependencies": {
     "@bark/eslint-config": "^0.1.2",
     "eslint": "^4.16.0"
+  },
+  "dependencies": {
+    "fs-jetpack": "^1.2.0",
+    "mustache": "^2.3.0"
   }
 }
