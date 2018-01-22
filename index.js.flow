@@ -1,0 +1,14 @@
+/* @flow */
+
+declare module '@commander-lol/koa-mustache' {
+		declare type ConfigOptions = {
+			debug(...args: any[]): void,
+			useCache?: boolean,
+			extension?: string,
+			partials?: string,
+		};
+
+		// declare type KoaMiddleware = (ctx: Object, next: Function) => *;
+
+		declare module.exports: (viewPath: string, opts?: ConfigOptions) => Function;
+}
